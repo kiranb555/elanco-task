@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path="/" element={<Applications />} />
-        <Route path="/applications" element={<Applications />} />
-        <Route path="/applications/:id" element={<MyApp />} />
-         <Route path="/resources" element={<Resources />} />
-        <Route path="/resources/:resourceName" element={<IndividualResources />} />
+        <Route path="/elanco-task/" element={<Applications />} />
+        <Route path="/elanco-task/applications" element={<Applications />} />
+        <Route path="/elanco-task/applications/:id" element={<MyApp />} />
+         <Route path="/elanco-task/resources" element={<Resources />} />
+        <Route path="/elanco-task/resources/:resourceName" element={<IndividualResources />} />
       </Routes>
       <Footer/>
     </div>
