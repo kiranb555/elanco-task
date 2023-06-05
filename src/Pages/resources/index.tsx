@@ -48,7 +48,7 @@ const Resources = () => {
                   <Card>
                     <CardBody>
                       <CardTitle className='cursor-pointer'>
-                        <Link to={`/resources/${resourceName}`} className="card-link">
+                        <Link to={`/elanco-task/resources/${resourceName}`} className="card-link">
                           {resourceName}
                         </Link>
                       </CardTitle>

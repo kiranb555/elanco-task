@@ -48,7 +48,7 @@ const Applications = () => {
                   <Card>
                     <CardBody>
                       <CardTitle className='cursor-pointer'>
-                        <Link to={`/applications/${appName}`} className="card-link">
+                        <Link to={`/elanco-task/applications/${appName}`} className="card-link">
                           {appName}
                         </Link>
                       </CardTitle>

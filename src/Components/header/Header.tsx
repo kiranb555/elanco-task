@@ -8,12 +8,12 @@ const Header = () => {
       <NavbarBrand href="/"><h2>Elanco</h2></NavbarBrand> 
       <Nav>
         <NavItem>
-          <NavLink to="/applications" className='header-link'>
+          <NavLink to="//elanco-task/applications" className='header-link'>
             Applications
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to="/resources" className='header-link'>
+          <NavLink to="/elanco-task/resources" className='header-link'>
             Resources
           </NavLink>
         </NavItem>
