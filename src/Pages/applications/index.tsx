@@ -33,7 +33,7 @@ const Applications = () => {
     <Container>
       <Heading title="Elanco Applications" /> 
       {
-        clonedList?.length ? <SearchBar value={searchValue} onChangeHandler={(value) => filterData(value) } /> : null
+        clonedList?.length ? <SearchBar placeHolder='Search Application' value={searchValue} onChangeHandler={(value) => filterData(value) } /> : null
       }
       {
         loader ? <Spinner className='m-3' /> :
